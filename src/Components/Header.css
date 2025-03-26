@@ -1,0 +1,85 @@
+.navbar {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(61, 63, 63);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  padding: 0 20px;
+}
+
+.navbar > h2 {
+  color: rgb(234, 191, 21);
+  margin-left: 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.menuItems {
+  cursor: pointer;
+  font-size: 20px;
+  padding: 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+.menuItems:hover {
+  color: rgb(234, 191, 21);
+  border-bottom: 4px solid rgb(234, 191, 21);
+  transition: border-bottom 0.3s ease-in;
+}
+.active {
+  color: rgb(234, 191, 21);
+  border-bottom: 4px solid rgb(234, 191, 21);
+}
+
+.contact-btn {
+  background-color: rgb(234, 191, 21);
+  border: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+  background-color: rgb(200, 160, 15);
+}
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: rgb(51, 51, 51);
+  width: 300px;
+  height: fit-content;
+  border-radius: 10px;
+}
+.mobileMenuItems {
+  margin: 10px;
+  padding: 10px;
+}
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+  }
+  .menu {
+    display: none;
+  }
+  
+}

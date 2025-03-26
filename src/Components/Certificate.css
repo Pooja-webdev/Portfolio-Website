@@ -1,0 +1,17 @@
+.certificate-container{
+    text-align: center;
+}
+.certificate-container h1{
+    text-align: center;
+    color: rgb(234, 191, 21);
+    margin: 20px;
+}
+.certificate-container img{
+    width:300px;
+    height:300px;
+    margin: 30px ;
+    transition: transform 0.3s ease-in-out;
+}
+.certificate-container img:hover{
+    transform: scale(1.2);
+}  
