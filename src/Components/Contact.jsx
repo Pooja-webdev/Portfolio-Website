@@ -86,7 +86,7 @@ const Contact = () => {
           <img src={facebook} alt="facebook-image" />
         </a>
         <a
-          href="https://www.instagram.com/pooja premkumar"
+          href="https://www.instagram.com/poojaprem.tn"
           target="_blank"
           rel="noopener noreferrer"
         >

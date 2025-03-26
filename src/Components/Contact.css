@@ -72,13 +72,24 @@
   border: 1px solid #f5c6cb;
 }
 
+@media screen and (max-width: 1200px) {
+  .name,
+  .email,
+  .message {
+    width: 70%;
+  }
+  .submit-btn {
+    width: 50%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .name,
   .email,
   .message {
-    width: 50%;
+    width: 80%;
   }
   .submit-btn {
-    width: 30%;
+    width: 50%;
   }
 }

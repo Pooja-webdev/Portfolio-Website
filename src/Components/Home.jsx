@@ -21,8 +21,8 @@ const Home = () => {
             Html and CSS, eager to create responsive and interactive web
             applications.
           </p>
-          <a href="/Resume.pdf">
-          <button className="view-btn">View Resume</button>
+          <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+            <button className="view-btn">View Resume</button>
           </a>
         </div>
       </div>
